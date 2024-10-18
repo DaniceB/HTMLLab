@@ -1,0 +1,6 @@
+header {
+    background-color: #fff835;
+    color: #3d3020;
+    padding: 20px 0;
+    text-align: center;
+}
