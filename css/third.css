@@ -1,5 +1,3 @@
-@import url('https://fonts.google.com/share?selection.family=Dancing+Script:wght@400..700');
-
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 0.90rem;
@@ -20,8 +18,8 @@ header {
 
 section {
     background-color: #edbcc7;
-    color: #582B11;
-    text-align: center;
+    color: #582B11
+    text #582B11;
     padding: 5px, 5px, 5px, 5px;
 }
 
@@ -33,7 +31,7 @@ ul {
 
 nav a:hover {
     background-color: #e9cf8c;
-    padding: 0, 0, 0, 0;
+    padding: 1px, 1px, 1px, 1px;
 }
 
 nav a {
@@ -55,9 +53,6 @@ img {
     max-width: 50%;
     flex: 3;
     background-color: #f4ebd5;
-    border: #F2E3BC;
-    border-style: solid;
-    border-width: 5px;
 }
 
 main section {
@@ -66,11 +61,20 @@ main section {
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
     background-color: #F2E3BC;
-    color: #582B11;
-    position: relative;
-    bottom: 0;
-    width: 100;
+    color: #582B11
+    text #582B11;
+    text-align: center;
+    border-top: 20px;
+    border-top-color: #eeccd4;
+    border-top-style: solid;
+    padding: 5px, 5px, 5px, 5px;
+    position: absolute;
+    bottom: 5;
+    left: 0;
+    right: 0;
+}
+
+link :hover{
+    background-color: #eeccd4;
 }
