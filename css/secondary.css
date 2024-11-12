@@ -48,6 +48,20 @@ ol {
     list-style: circle;
 }
 
+li.even {
+    background-color: #e2f8fe;
+    padding-right: 3px;
+    text-align: center;
+    list-style: none;
+}
+
+li.odd {
+    background-color: #97cfef;
+    padding-right: 3px;
+    text-align: center;
+    list-style: none;
+}
+
 /*navigation section*/
 nav a:hover {
     background-color: #6a422a;

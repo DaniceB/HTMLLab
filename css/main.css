@@ -33,6 +33,12 @@ main section {
     padding: 10px;
 }
 
+section#intro {
+    border-style: solid;
+    border-color: #ed7591;
+    border-width: 3px;
+}
+
 ul {
     text-align: center;
     list-style: none;
@@ -77,5 +83,5 @@ footer {
     position: relative;
     top: 50px;
     bottom: 0;
-    width: 965px;
+    width: 100%;
 }
