@@ -28,9 +28,6 @@ h2 {
 
 section {
     background-color: #fef6e2;
-    color: #fef6e2
-    text #fef6e2;
-    padding: 5px, 5px, 5px, 5px;
 }
 
 ul {
@@ -44,7 +41,7 @@ ol {
 
 nav a:hover {
     background-color: #6a422a;
-    padding: 1px, 1px, 1px, 1px;
+    padding: 15px;
 }
 
 nav a {
@@ -76,7 +73,6 @@ footer {
     color: #fef6e2;
     position: relative;
     bottom: 0;
-    width: 100;
 }
 
 table {
