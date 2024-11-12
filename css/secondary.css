@@ -1,8 +1,14 @@
+@import url(https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap);
+
+:root {
+    font-size: 100%;
+}
+
 *{
     box-sizing: border-box;
 }
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Sour gummy, Georgia, 'Times New Roman', Times, serif;
     font-size: 0.90rem;
     line-height: 1.6;
     margin: 6px;
@@ -13,6 +19,7 @@ body {
 
 /*try to figure out how to get custom text*/
 
+/*headers*/
 header {
     font-family: cursive;
     background-color: #582B11;
@@ -30,6 +37,7 @@ section {
     background-color: #fef6e2;
 }
 
+/*list section*/
 ul {
     text-decoration-color: #582B11;
     list-style: none;
@@ -39,6 +47,7 @@ ol {
     list-style: circle;
 }
 
+/*navigation section*/
 nav a:hover {
     background-color: #6a422a;
     padding: 15px;
@@ -83,6 +92,7 @@ table {
     text-align: center;
 }
 
+/*layout*/
 aside {
     width: 30%;
     float: left;

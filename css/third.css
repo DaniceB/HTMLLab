@@ -1,5 +1,11 @@
+@import url(https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap);
+
+:root {
+    font-size: 100%;
+}
+
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Sour gummy, Georgia, 'Times New Roman', Times, serif;
     font-size: 0.90rem;
     line-height: 1.6;
     margin: 6px;
@@ -16,17 +22,25 @@ header {
     text-align: center;
 }
 
+/*section*/
 section {
     background-color: #edbcc7;
     color: #582B11
 }
 
+main section {
+    margin-bottom: 20px;
+    height: 5px;
+}
+
+/*lists*/
 ul {
     text-align: center;
     list-style: none;
     text-decoration-color: #582B11;
 }
 
+/*navigation section*/
 nav a:hover {
     background-color: #e9cf8c;
     padding: 15px;
@@ -47,15 +61,11 @@ nav ul {
     padding: 0;
 }
 
+/*image section*/
 img {
     max-width: 50%;
     flex: 3;
     background-color: #f4ebd5;
-}
-
-main section {
-    margin-bottom: 20px;
-    height: 5px;
 }
 
 footer {
