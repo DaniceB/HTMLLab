@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Sour gummy, Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 0.90rem;
     line-height: 1.6;
     margin: 6px;
@@ -20,6 +20,10 @@ header {
     color: #582B11;
     padding: 10px 0;
     text-align: center;
+}
+
+h2 {
+    font-family: Sour gummy;
 }
 
 main section {
