@@ -17,7 +17,7 @@ if (alertButton) {
     });
 
     alertButton.addEventListener("mouseover", () => {
-        alertButton.innerText = "໒꒰ྀི˶˙Ⱉ˙˶꒱ྀིა";
+        alertButton.innerText = "໒꒰ྀི   ˶˙Ⱉ˙˶   ꒱ྀིა";
     });
 
     alertButton.addEventListener("mouseout", () => {
@@ -25,21 +25,34 @@ if (alertButton) {
     });
 }
 
+//list of favourite things to do
+const numbersList = document.getElementById("numbers");
+
+if (numbersList) {
+    for (let i = 1; i <= 12; i++) {
+        const listItem = document.createElement("li");
+        listItem.textContent = i % 2 === 0 ? "even" : "odd";
+        numbersList.apprendChild(listItem);
+    }
+}
+
+
 //Greeting
 const greetingElement = document.getElementById("Greeting");
 
 if (greetingElement) {
-    const hours = new Date().getHours();
+    var i = new Date();
+    var time = d.getHours();
     let greetingMessage = "";
     let greetingColor = "";
 }
 
-if (hours < 12) {
+if (time < 12) {
     greetingMessage = "Good Morning!";
-    greetingColor = "morning";
-} else if (hours >= 12 && hours < 17) {
+    greetingColor = "Greeting.morning";
+} else if (time >= 12 && time < 17) {
     greetingMessage = "Good Afternoon";
-    greetingColor = "afternoon";
+    greetingColor = "Greeting.afternoon";
 } else {
     greetingMessage = "Good Evening";
     greetingColor = "evening"

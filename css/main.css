@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap);
 
+/* for home page */
 :root {
     font-size: 100%;
 }
@@ -86,3 +87,45 @@ footer {
     width: 100%;
 }
 
+.tmpBtnAlert {
+
+    text-decoration: none;
+    background: rgb(194, 25, 112);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 1.0);
+    transition: background-color 5s ease;
+}
+
+.tmpBtnAlert
+{
+    background: rgb(70, 138, 158);
+    color: yellow;
+    transition: background-color 5s ease;
+}
+
+/* greeting */
+.Greeting {
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 10px;
+}
+
+.Greeting.morning {
+    color: #ffeec2;
+    background-color: #f4c03e;
+}
+
+.Greeting.afternoon {
+    color: #542631;
+    font-size: 30px;
+    background-color: #c06e37;
+}
+
+.Greeting.evening {
+    color: rgb(246, 238, 124);
+    font-size: 30px;
+    background-color: #1b0747;
+}

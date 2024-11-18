@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap);
 
+/* for about page */
 :root {
     font-size: 100%;
 }
@@ -122,4 +123,20 @@ article {
     width: 40%;
     float: left;
     padding: 10px;
+}
+
+.numbers {
+    text-align: center;
+    font-size: 12px;
+}
+
+.numbers h2 {
+    text-align: center;
+    border: #6bbff0;
+    margin-bottom: 10px;
+}
+
+.numbers li {
+    list-style: decimal;
+    list-style-position: inside;
 }
